@@ -47,7 +47,7 @@
 
     .close {
       background: none;
-      color: white;
+      color: rgb(0, 0, 0);
       border: 0;
     }
 
@@ -71,7 +71,7 @@
       object-fit: cover;
       
     }
-    .item__overlay{
+    .item__overlay {
      background-color:#ffc60032;
      background-color: ;
      grid-column: 1/-1;
@@ -131,6 +131,13 @@ grid-column: span 4;
 
     .overlay.open {
       display: grid;
+      align-items: center;
+      justify-items: center;
+    }
+    .overlay-inner {
+      background: white;
+      width: 700px;
+      padding: 20px;
     }
 
     .overlay figure {
