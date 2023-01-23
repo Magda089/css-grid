@@ -12,3 +12,37 @@ img {
   max-width: 100%;
 }
 
+.top {
+  display: grid;
+  grid-template-areas: 
+  "hero hero cta1"
+  "hero hero cta2"
+}
+
+.hero {
+  display: grid;
+  grid-area: hero;
+  min-height: 400px;
+  background: white url(images/taco.jpg);
+  background-size: cover;
+  background-position: bottom right;
+  padding: 50px;
+  justify-content: start;
+  align-content: center;
+  
+
+}
+
+.hero > * {
+background: rgb(252, 172, 35);
+}
+
+.cta1 {
+display: grid;
+grid-area: cta1;
+}
+
+.cta2 {
+  display: grid;
+  grid-area: cta2;
+}
